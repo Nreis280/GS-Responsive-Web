@@ -40,6 +40,10 @@
     background-color: #fafafa;
   }
 
+  .hamburger-menu{
+    display: none;
+  }
+
   .links {
     display: flex;
     flex-direction: row;

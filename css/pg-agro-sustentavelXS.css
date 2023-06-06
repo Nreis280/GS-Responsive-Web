@@ -1,4 +1,4 @@
-@media only screen and (min-width: 601px) and (max-width: 800px) {
+@media only screen and (min-width: 400px) and (max-width: 600px) {
   * {
     margin: 0 auto;
     padding: 0;
@@ -10,30 +10,35 @@
     background-color: #f2ece2;
   }
 
-  h1{
-    font-size: 28px;
-    color: #1e5044;
+  h1 {
+    color: white;
+    font-size: 14px;
     text-align: center;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 450;
+    padding: 10px;
+    line-height: 20px;
   }
-
-  .ti{
-    color: #aef084;
+  .titulo1 {
+    color: #1e5044;
+    font-size: 22px;
+    text-align: center;
+  }
+  .sub-titulo {
+    color: #1e5044;
+    font-size: 22px;
+    text-align: center;
   }
 
   .logo {
-    max-width: 123px;
-    height: 100px;
-    margin-left: 50px;
+    width: 100px;
+    height: 150px;
+    float: left;
   }
 
- 
-
   p {
-    margin: 25px 25px;
     font-family: "Roboto Mono", monospace;
-    line-height: 30px;
+    line-height: 25px;
+    font-size: 12px;
+    margin: 0 30px;
   }
 
   a {
@@ -41,13 +46,9 @@
     color: #1e5044;
   }
 
-  nav ul li {
-    list-style: none;
-  }
-
   header {
     width: 100%;
-    height: 120px;
+    height: 150px;
     margin: 30px 0;
   }
 
@@ -133,172 +134,91 @@
 		background-color: #ccc;
 	}
 
+
   .links {
     display: flex;
     flex-direction: row;
     align-items: center;
-    margin: 23px auto;
+    margin: 0px auto;
     font-family: "Montserrat", sans-serif;
-    font-size: 15px;
+    font-size: 12px;
     font-weight: 400;
-    height: 8vh;
+    height: 100px;
   }
-
 
   .lista {
     display: none;
   }
-
-
   main {
-    width: 601px;
-    height: 3100px;
-    margin: 70px auto 0;
+    max-width: 400px;
+    height: 4700px;
   }
 
-  .caixa-in, .caixa-in-e{
-    float: left;
-    width: 601px;
-    height: auto;
-    margin: 10px 0;
+  .principal{
+    display: block;
+    width: 400px;
   }
 
-  .caixa-in-mobile{
-    display: none;
-  }
-
-  .fte{
-    float: left;
-    width: 100px;
-    margin: 90px 15px 50px 50px;
-    border: 1px solid #aef084 ;
-    border-radius: 100%;
-  }
-
-  .ftd{
-    float: right;
-    width: 100px;
-    margin: 90px 55px 50px 20px;
-    border: 1px solid #aef084 ;
-    border-radius: 100%;
-  }
-
-  .linha , .linhad{
-    float: left;
-    margin-top: 140px;
-    width: 50px;
-    height: 0px;
-    border-top: 1px solid #aef084;
-  }
-  
-  h2{
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
-    padding: 7px 0;
-    text-align: center;
-    color: #122e23;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 16px;
-    font-weight: 600;
-    background-color: #aef084;
-  }
-
-  .curso{
-    text-align: center;
-    margin: 10px 0;
-    color: #122e23;
-    font-family: 'Roboto Mono', monospace;
-    font-weight: 500;
-    font-size: 14px;
-  }
-
-  .h3r{
-    float: left;
-    margin-left: 50px;
-    color: #122e23;
-    font-family: 'Roboto Mono', monospace;
-    font-weight: 300;
-    font-size: 14px;
-  }
-
-  .h3i{
-    float:right ;
-    margin-right: 50px;
-    color: #122e23;
-    font-family: 'Roboto Mono', monospace;
-    font-weight: 300;
-    font-size: 14px;
-  }
-
-  .textoe , .textod {
-    float: left;
-    border: 1px solid #aef084;
-    border-radius: 20px;
+  .agro {
+    display: block;
     width: 300px;
-    height: 120px;
-    margin: 80px 0px 100px 20px;
+    margin-top: 20px;
   }
 
-  .textod{
-    margin: 80px 20px 100px 50px;
+  .ecoagro{
+    display: block;
+    width: 300px;
+    margin-top: 20px;
   }
 
-
-  .logo-social-gabi , .logo-social-maria , .logo-social-renan{
-    float: left;
-    width: 140px;
-    height: 50px;
-    margin-left: 30px;
+  .beneficio{
+    display: block;
+    width: 300px;
+    margin-top: 20px;
   }
-  .logo-social-lucca , .logo-social-nicolas{
-    float: right;
-    width: 140px;
-    height: 50px;
-    margin-right: 35px;
-  }
-
-  .sec-gabi, .sec-lucca ,.sec-maria,.sec-nicolas, .sec-renan{
+  .sec-texto {
     position: absolute;
-    width: 601px;
-    height: 50px;
+    width: 100%;
+    height: 142px;
+    top: 322px;
+  }
+
+  .a1 {
+    width: 100%;
+    height: 300px;
+    margin-top: 50px;
+  }
+  .a2 {
+    width: 100%;
+    height: 450px;
+    margin-top: 50px;
     
-}
-
-  .sec-gabi{
-    top: 1680px;
+  }
+  .a3 {
+    width: 100%;
+    height: 1000px;
+    margin-top: 50px;
+    
+  }
+  .a4 {
+    width: 100%;
+    height: 860px;
+    margin-top: 50px;
+    
+  }
+  .a5 {
+    width: 100%;
+    height: 1620px;
+    margin-top: 50px;
   }
 
-  .sec-lucca{
-    top: 2000px;
-}
-
-  .sec-maria{
-    top: 2320px;
-}
-  .sec-nicolas{
-    top: 2640px;
-}
-.sec-renan{
-    top: 2965px;
-
-}
-
-  .social{
-    width: 34px;
-    margin: 5px;
+  .textos {
+    width: 100%;
+    margin: 20px 0px 0 0px;
   }
-
-  .git{
-    position: absolute;
-    width: 46px;
-    margin: 5px;
-    top: -6px;
-  }
-
-
 
   footer {
-    width: calc(100% - 2px);
+    width: 100%;
     height: 200px;
     background-color: rgb(255, 255, 255);
     border-top: 1px solid #1e5044;
@@ -329,7 +249,7 @@
     font-weight: 400;
     font-size: 14px;
     color: #122e23;
-    margin: 0 0 10px 48px;
+    margin: 20px 0 10px 48px;
   }
 
   .footer-class {
@@ -339,7 +259,7 @@
 
   .footer {
     border-top: 1px solid black;
-    width: 560px;
+    width: calc(100% - 40px);
     margin-left: 18px;
     font-family: "Montserrat", sans-serif;
     font-weight: 400;
