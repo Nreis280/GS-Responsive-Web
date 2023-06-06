@@ -111,23 +111,13 @@
     border-radius: 100%;
   }
 
-  .linha{
+  .linha , .linhad{
     float: left;
     margin-top: 140px;
     width: 50px;
     height: 0px;
     border-top: 1px solid #aef084;
   }
-
-  .linhad{
-    float: left;
-    margin-top: 140px;
-    
-    width: 50px;
-    height: 0px;
-    border-top: 1px solid #aef084;
-  }
-
   
   h2{
     border-top-left-radius: 20px;
@@ -168,7 +158,7 @@
     font-size: 14px;
   }
 
-  .textoe {
+  .textoe , .textod {
     float: left;
     border: 1px solid #aef084;
     border-radius: 20px;
@@ -178,20 +168,9 @@
   }
 
   .textod{
-    float: left;
-    border: 1px solid #aef084;
-    border-radius: 20px;
-    width: 300px;
-    height: 120px;
     margin: 80px 20px 100px 50px;
   }
 
-  .sec-gabi{
-    position: absolute;
-    width: 601px;
-    height: 50px;
-    top: 1670px;
-}
 
   .logo-social-gabi , .logo-social-maria , .logo-social-renan{
     float: left;
@@ -199,14 +178,6 @@
     height: 50px;
     margin-left: 30px;
   }
-
-  .sec-lucca{
-    position: absolute;
-    width: 601px;
-    height: 50px;
-    top: 1990px;
-}
-
   .logo-social-lucca , .logo-social-nicolas{
     float: right;
     width: 140px;
@@ -214,23 +185,28 @@
     margin-right: 35px;
   }
 
-  .sec-maria{
+  .sec-gabi, .sec-lucca ,.sec-maria,.sec-nicolas, .sec-renan{
     position: absolute;
     width: 601px;
     height: 50px;
+    
+}
+
+  .sec-gabi{
+    top: 1670px;
+  }
+
+  .sec-lucca{
+    top: 1990px;
+}
+
+  .sec-maria{
     top: 2310px;
 }
   .sec-nicolas{
-    position: absolute;
-    width: 601px;
-    height: 50px;
     top: 2630px;
 }
-
 .sec-renan{
-    position: absolute;
-    width: 601px;
-    height: 50px;
     top: 2955px;
 
 }

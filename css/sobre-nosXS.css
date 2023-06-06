@@ -1,5 +1,4 @@
 @media only screen and (min-width: 400px) and (max-width: 600px) {
-  
   * {
     margin: 0 auto;
     padding: 0;
@@ -11,15 +10,15 @@
     background-color: #f2ece2;
   }
 
-  h1{
+  h1 {
     font-size: 28px;
     color: #1e5044;
     text-align: center;
-    font-family: 'Montserrat', sans-serif;
+    font-family: "Montserrat", sans-serif;
     font-weight: 450;
   }
 
-  .ti{
+  .ti {
     color: #aef084;
   }
 
@@ -87,14 +86,14 @@
     margin: 10px 0;
   }
 
-  .caixa-in-mobile{
+  .caixa-in-mobile {
     float: left;
     width: 400px;
     height: 500px;
     margin: 10px 0;
   }
 
-  .caixa-in{
+  .caixa-in {
     display: none;
   }
 
@@ -113,7 +112,8 @@
     border-radius: 100%;
   }
 
-  .linha, .linhad{
+  .linha,
+  .linhad {
     margin-top: 10px;
     width: 0;
     height: 50px;
@@ -156,7 +156,8 @@
     font-weight: 400;
   }
 
-  .textoe, .textod  {
+  .textoe,
+  .textod {
     border: 1px solid #aef084;
     border-radius: 20px;
     width: 345px;
@@ -164,45 +165,45 @@
     margin: 10px auto;
   }
 
-  .logo-social-gabi, .logo-social-lucca , .logo-social-maria, .logo-social-nicolas, .logo-social-renan {
+  .logo-social-gabi,
+  .logo-social-lucca,
+  .logo-social-maria,
+  .logo-social-nicolas,
+  .logo-social-renan {
     width: 150px;
     height: 50px;
   }
 
-  .sec-gabi {
-    position: absolute;
-    width: 400px;
-    height: 50px;
-    top: 2185px;
-  }
-
-  .sec-lucca {
-    position: absolute;
-    width: 400px;
-    height: 50px;
-    top: 2705px;
-  }
-
-  .sec-maria {
-    position: absolute;
-    width: 400px;
-    height: 50px;
-    top: 3225px;
-  }
-
-  .sec-nicolas {
-    position: absolute;
-    width: 400px;
-    height: 50px;
-    top: 3745px;
-  }
-
+  .sec-gabi,
+  .sec-lucca,
+  .sec-maria,
+  .sec-nicolas,
   .sec-renan {
     position: absolute;
     width: 400px;
     height: 50px;
+  }
+
+  .sec-gabi {
+    top: 2185px;
+  }
+
+  .sec-lucca {
+    top: 2705px;
+  }
+
+  .sec-maria {
+    top: 3225px;
+  }
+
+  .sec-nicolas {
+    top: 3745px;
+  }
+
+  .sec-renan {
     top: 4265px;
   }
+  
   .social {
     width: 38px;
     margin: 5px;
